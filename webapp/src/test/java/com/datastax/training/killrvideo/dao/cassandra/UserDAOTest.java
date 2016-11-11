@@ -47,9 +47,7 @@ public class UserDAOTest extends AbstractDSETest {
         CassandraUserDAO userDAO = new CassandraUserDAO();
 
         userDAO.addUser(TestData.TEST_USER2);
-
         userDAO.addUser(TestData.TEST_USER2);
-
     }
 
 }
